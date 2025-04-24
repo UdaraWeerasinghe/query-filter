@@ -1,0 +1,23 @@
+{
+    "name": "udaraweerasinghe/query-filter",
+    "description": "Dynamic and customizable query filtering for Laravel Eloquent models.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "UdaraWeerasinghe\\QueryFilter\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=8.0",
+      "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "UdaraWeerasinghe\\QueryFilter\\QueryFilterServiceProvider"
+        ]
+      }
+    }
+  }
+  
